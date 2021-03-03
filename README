@@ -1,0 +1,103 @@
+Postolache Alexandru-Gabriel
+
+Observatii:
+	-in casa de licitatii exista maxim 3 produse in acelasi
+timp in sistem, deci daca se citesc mai multe se va astepta pana vor fi
+eliminate unele
+	-am pastrat nr maxim de pasi la o licitatie ca fiind 5
+	-am hardcodata un nr de 3 brokeri si un administrator care ajuta
+la desf licitatiei
+	-in multithreading se intampla 3 lucruri in acelasi timp:
+		-citirea clientilor si efectuarea cererilor pt produse
+		-citirea de produse
+		-eliminarea din Array a produselor vandute
+	-pt fiecare produs exista o licitatie inactiva cu ac id
+	-programul se termina dupa ce s-au citit toti clientii
+si toate cererile lor
+	-la fiecare pas al licitatiei daca clientul deja nu mai
+are resurse sa depaseasca castigatorul va returna mereu
+ultima suma licitata de el. 
+
+Voi comenta codul pe Clase:
+
+Main:
+	Se creeaza casa, administratorulm brokerii si
+executorService ul care ruleaza cele 3 threaduri in ac
+timp.
+
+Employee:
+	Metoda aceea va face 2 lucruri dif in 2 clase dif
+
+Administrator:
+	-modifyProductList, va incerca sa citeasca dintr-un
+fisier produsele si le adauga in lista
+
+Auction:
+	-start, porneste o licitatie, calculeaza castigatorul
+la fiecare pas si daca castigatorul este valid il declara
+ca castigator, iar la final distruge relatiile de legatura
+intre brokeri si clienti
+
+AuctionHouse:
+	-initializeAuctions, creaza un obiect de tip Auction
+pt fiecare produs proaspat adaugat in sistem.
+	-setBroker, casa de licitatii ii asocieaza clientului
+un Broker random.
+	-getRequestProduct, casa de licitatii returneaza
+produsul dorit de client si adauga participanti la licitatie.
+	-checkAuctions, verifica daca vreo licitatie este gata
+sa inceapa si daca da ii seteaza brokerii ai caror clienti
+sunt participanti si o incepe. La final o elimina.
+	-maxSumWinner, calculeaza clientul castigator la fiecare
+pas si la final informeaza Brokerii de suma clientului
+castigator care transmit mai departe inf la clienti.
+	-readClients, se citeste din fisier clientul care
+se adauga in lista si i se citeste si produsul dorit,
+executandu-se cererea sa. Dupa fiecare adagare de client
+se verifica daca o licitatie poate incepe.
+
+Broker:
+	-getAuctionedSum, returneaza pretul clientului cu
+comisionul aplicat, cu ajutorul lui strategy pattern.
+	-clearOldClients, distruge relatiile intre clienti
+si brokeri.
+	-informBroker, informeaza mai departe clientul de suma
+care ar trebui investita la urm pas al licitatiei ca sa
+aiba sanse de castig. Se foloseste iar strategy pattern
+ca sa se calc valoarea ce ar trb data tinand cont de comision
+	-modigyProductList, daca lista e goala se asteapta sa
+se citeasca produse, dupa elimina produsele vandute.
+	-setMaxAuctionedMoney calculeaza pretul maxim care
+poate fi investit si il seteaza.
+	-requestProduct, clientul trimite o cerere casei de licitatii
+
+Commission:
+	-valueAfterCommission, calculeaza suma extragand
+comisionul
+	-valueBeforeCommission, calculeaza suma inainte de
+extragerea comisionului
+
+LegalCommissionStrategy, PhysicalCommissionStrategy:
+	-defineste metodele din interfata pt fiecare tip
+FactoryClient, FactoryProduct:
+	-creaza fiecare in metoda lor obiectul de tipul
+respectiv
+
+StrategyContext:
+	-cele 2 metode pay si inform fac lucruri diferite
+in functie de tipul de strategie setat
+
+Furniture, Jewel, Painting:
+	Contin cate un builder care se foloseste la constructor
+si se defineste in cadrul fiecarei clase builderul
+sau care il mosteneste pe cel din clasa parinte Product
+
+LegalPerson, PhysicalPerson:
+	Definesc tipurile de clienti
+
+Product:
+	Tatal celor 3 clase de produse, care contine si un
+builder
+
+
+
