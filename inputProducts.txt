@@ -1,0 +1,11 @@
+Furniture 1 Ikea 1.0 2000 kitchen OIL
+Furniture 2 Ikea 2.0 2000 GIGI TEMPERA
+Painting 7 Bub 10.0 1890 Leonardo OIL
+Furniture 3 Ikea 3.0 2001 ASH ACRILIC
+Jewel 4 Lala 2.0 1900 Crystal true
+Jewel 5 Teilor 2.0 1900 Crystal true
+Jewel 6 Pandora 2.0 1900 Silver false
+Painting 8 Bube 2.0 1890 Henry TEMPERA
+Painting 9 Pasd 3.0 2012 Picasso ACRILIC
+
+

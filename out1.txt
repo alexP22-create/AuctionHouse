@@ -1,0 +1,30 @@
+Add the product with the id: 1
+Add the product with the id: 2
+Add the product with the id: 3
+Licitatia pentru produsul cu id-ul: 2
+	Pasul 1
+		Clientul Microsoft liciteaza: 3.67
+		Clientul Ubisoft liciteaza: 1.86
+		Clientul Bill liciteaza: 4.23
+		Clientul William liciteaza: 2.26
+	Pasul 2
+		Clientul Microsoft liciteaza: 5.24
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 5.78
+		Clientul William liciteaza: 3.84
+	Pasul 3
+		Clientul Microsoft liciteaza: 5.63
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 6.49
+		Clientul William liciteaza: 3.84
+	Pasul 4
+		Clientul Microsoft liciteaza: 5.63
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 6.63
+		Clientul William liciteaza: 3.84
+	Pasul 5
+		Clientul Microsoft liciteaza: 5.63
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 6.94
+		Clientul William liciteaza: 3.84
+======== The winner for the product 2 is: Bill
