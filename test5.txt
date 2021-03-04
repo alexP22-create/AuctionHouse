@@ -1,0 +1,12 @@
+Individual William 6 2
+Individual John 5 1
+Legal Microsoft 18 SRL 2
+Legal Ubisoft 7 SR 2
+Individual Bill 11 2
+Individual Gordon 3 1
+Individual Michael 6 1
+Individual Chad 5 1
+Legal Oracle 14 4
+Individual Elon 14 4
+Legal Nintendo 12 4
+Legal Gameswitch 10 4

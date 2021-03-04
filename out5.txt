@@ -1,0 +1,88 @@
+Add the product with the id: 1
+Add the product with the id: 2
+Add the product with the id: 7
+Licitatia pentru produsul cu id-ul: 2
+	Pasul 1
+		Clientul William liciteaza: 2.65
+		Clientul Microsoft liciteaza: 7.51
+		Clientul Ubisoft liciteaza: 0.85
+		Clientul Bill liciteaza: 5.53
+	Pasul 2
+		Clientul William liciteaza: 3.84
+		Clientul Microsoft liciteaza: 8.65
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 7.04
+	Pasul 3
+		Clientul William liciteaza: 3.84
+		Clientul Microsoft liciteaza: 9.2
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 7.04
+	Pasul 4
+		Clientul William liciteaza: 3.84
+		Clientul Microsoft liciteaza: 10.04
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 7.04
+	Pasul 5
+		Clientul William liciteaza: 3.84
+		Clientul Microsoft liciteaza: 10.09
+		Clientul Ubisoft liciteaza: 3.94
+		Clientul Bill liciteaza: 7.04
+======== The winner for the product 2 is: Microsoft
+Licitatia pentru produsul cu id-ul: 1
+	Pasul 1
+		Clientul Michael liciteaza: 3.29
+		Clientul Chad liciteaza: 0.79
+		Clientul John liciteaza: 2.5
+		Clientul Gordon liciteaza: 1.28
+	Pasul 2
+		Clientul Michael liciteaza: 3.38
+		Clientul Chad liciteaza: 3.2
+		Clientul John liciteaza: 3.2
+		Clientul Gordon liciteaza: 1.92
+	Pasul 3
+		Clientul Michael liciteaza: 3.69
+		Clientul Chad liciteaza: 3.2
+		Clientul John liciteaza: 3.2
+		Clientul Gordon liciteaza: 1.92
+	Pasul 4
+		Clientul Michael liciteaza: 3.69
+		Clientul Chad liciteaza: 3.2
+		Clientul John liciteaza: 3.2
+		Clientul Gordon liciteaza: 1.92
+	Pasul 5
+		Clientul Michael liciteaza: 3.73
+		Clientul Chad liciteaza: 3.2
+		Clientul John liciteaza: 3.2
+		Clientul Gordon liciteaza: 1.92
+======== The winner for the product 1 is: Michael
+S-a eliminat produsul cu id-ul 1
+S-a eliminat produsul cu id-ul 2
+Add the product with the id: 3
+Add the product with the id: 4
+Licitatia pentru produsul cu id-ul: 4
+	Pasul 1
+		Clientul Elon liciteaza: 1.49
+		Clientul Nintendo liciteaza: 1.59
+		Clientul Oracle liciteaza: 3.81
+		Clientul Gameswitch liciteaza: 5.16
+	Pasul 2
+		Clientul Elon liciteaza: 8.37
+		Clientul Nintendo liciteaza: 5.83
+		Clientul Oracle liciteaza: 5.53
+		Clientul Gameswitch liciteaza: 5.52
+	Pasul 3
+		Clientul Elon liciteaza: 8.51
+		Clientul Nintendo liciteaza: 6.75
+		Clientul Oracle liciteaza: 7.88
+		Clientul Gameswitch liciteaza: 5.63
+	Pasul 4
+		Clientul Elon liciteaza: 8.63
+		Clientul Nintendo liciteaza: 6.75
+		Clientul Oracle liciteaza: 7.88
+		Clientul Gameswitch liciteaza: 5.63
+	Pasul 5
+		Clientul Elon liciteaza: 8.91
+		Clientul Nintendo liciteaza: 6.75
+		Clientul Oracle liciteaza: 7.88
+		Clientul Gameswitch liciteaza: 5.63
+======== The winner for the product 4 is: Elon
