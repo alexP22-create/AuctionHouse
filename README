@@ -1,5 +1,9 @@
 Postolache Alexandru-Gabriel
 
+inputClients.txt and inputProducts.txt are the input files.
+test1.txt and test5.txt are 2 examples of commands and 
+out1.txt and out5.txt are the respective outputs.
+
 Observatii:
 	-in casa de licitatii exista maxim 3 produse in acelasi
 timp in sistem, deci daca se citesc mai multe se va astepta pana vor fi
